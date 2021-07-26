@@ -1,0 +1,21 @@
+{
+  "name": "tbot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "twitter bot for testing",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "start": "npm run build && node src/main.js",
+    "clean": "npx tsc --build --clean"
+  },
+  "author": "sh1mc",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/twitter": "^1.7.1",
+    "twitter": "^1.7.1",
+    "twitter-d": "^0.4.0",
+    "typescript": "^4.3.5"
+  }
+}
